@@ -1,0 +1,15 @@
+.boton {
+    color: white;
+    background-color: brown;
+    border-radius:5rem;
+    border: none;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 1rem auto;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.boton:hover {
+    animation: pulse 400ms;
+}

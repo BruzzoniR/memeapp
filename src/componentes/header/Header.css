@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #116387;
+}
+
+.navbar img {
+    height: 8rem;
+}
+
+.navbar-collapse {
+    justify-content:space-evenly;
+    text-align: end;
+}
+
+.navbar-nav {
+    display: inline-flex;
+}
+
+.nav-link {
+    text-align: right;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.nav-link.active {
+    border-bottom: 0.2rem solid white;
+}
+
+.nav-link:hover {
+    color: white;
+    animation: pulse;
+    animation-duration: 0.5s;
+}

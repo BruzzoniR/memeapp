@@ -1,0 +1,35 @@
+.formulario {
+    width: 80%;
+    margin: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inputs-texto {
+    width: 60%;
+}
+
+.inputs-select {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 300;
+    gap: 3rem;
+}
+
+@media only screen and (min-width:600px) and (max-width: 950px) {
+    .inputs-texto {
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width:599px){
+    .inputs-texto {
+        width: 90%;
+    }
+}
